@@ -31,6 +31,10 @@ cd build
 
 [Documentation](https://docs.armbian.com/Developer-Guide_Overview/) • [Website](https://www.armbian.com) • [Blog](https://blog.armbian.com) • [Community Forums](https://forum.armbian.com)
 
+### DShanPI A1 CM5
+
+[中文 / English adaptation, device-tree, build, and validation guide](docs/dshanpi-a1-cm5/README.md) • [Repository maintenance skill](.agents/skills/guard-dshanpi-a1-cm5/SKILL.md)
+
 
 
 <a href="#how-to-build-an-image-or-a-kernel"><img src=".github/README.gif" alt="Armbian logo" width="100%"></a>
