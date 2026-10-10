@@ -1,3 +1,5 @@
+> DShanPI 开发、构建与发布必须遵守 [三仓统一交付门禁](DELIVERY_POLICY.md)，工作入口见 [AGENTS.md](AGENTS.md)。
+
 <h2 align="center">
   <img src="https://raw.githubusercontent.com/armbian/.github/master/profile/logo.png" alt="Armbian logo" width="25%">
   <br><br>
@@ -30,6 +32,10 @@ cd build
 ### Resources
 
 [Documentation](https://docs.armbian.com/Developer-Guide_Overview/) • [Website](https://www.armbian.com) • [Blog](https://blog.armbian.com) • [Community Forums](https://forum.armbian.com)
+
+### DShanPI A1 CM5
+
+[中文 / English adaptation, device-tree, build, and validation guide](docs/dshanpi-a1-cm5/README.md) • [Repository maintenance skill](.agents/skills/guard-dshanpi-a1-cm5/SKILL.md)
 
 
 
