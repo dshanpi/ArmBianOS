@@ -18,3 +18,11 @@ CM5 使用独立板型、DTB 和包命名空间。不得把 CM5 修复泄漏到�
 检查、语法检查及 `git diff --check`；保留构建日志、版本和哈希，区分软件与实板证据。
 发布按已授权流水线及固定版本计划执行；临时人工发布遵守相同验证要求。
 跨仓政策同步须使用 `--peer` 核对；门禁文件检查不能代替实际自动发布和硬件验收。
+
+按 DELIVERY_POLICY.md G13 执行源码归属：板级/内核/设备树归 ArmBianOS，可选驱动
+锁定/补丁/DEB/发行归 dshanpi-build，用户交互归 dspi-config，板卡差异用 BSP profile。
+组件按目录、短期分支和 PR 管理；实现与验证证据分开提交，历史 lock/包/tag 不覆盖。
+暂存后运行 `python3 tools/check-repository-hygiene.py`；只暂存明确审查的文件，
+缓存、构建输出、私钥和个人凭据不提交。技能与开发交接记录随仓库维护。
+
+开发交接见 `docs/development-handoff.md`；仓库内 skill 为维护源，不依赖用户 home 中的旧副本。
